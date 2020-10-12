@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="body">
+<header>
+    <nav class="body__navigation navigation">
+        <a class="navigation__link navigation__link--notification" href="">
+            <span class="visually-hidden">Уведомления</span>
+        </a>
+        <a class="navigation__link navigation__link--profile" href="">
+            <span class="visually-hidden navigation__link-fio">Иванова А.</span>
+        </a>
+    </nav>
+</header>
+<main>
+    <h1 class="title-heading">Личный профиль</h1>
+    <article class="personal_info">
+        <h2 class="personal_info__title">Главная/Личный профиль</h2>
+        <div class="personal_info__toolbar">
+            <img src="svg/avatar.svg" class="personal_info__avatar">
+            <span class="personal_info__fio">Иванова Анна Михайловна</span>
+            <a class="personal_info__edit" href=""><span class="visually-hidden">Редактировать профиль</span></a>
+        </div>
+
+        <dl class="personal_info__content">
+            <div class="personal_info__content-item">
+                <dt class="visually-hidden">Адрес электронной почты пользователя</dt>
+                <dd class="personal_info__content-data personal_info__content-data--mail">ivanov@mail.ru</dd>
+            </div>
+            <div class="personal_info__content-item">
+                <dt class="visually-hidden">Номер телефона пользователя</dt>
+                <dd class="personal_info__content-data personal_info__content-data--phone">Укажите номер телефона</dd>
+            </div>
+        </dl>
+
+    </article>
+</main>
+</body>
+</html>
